@@ -22,7 +22,7 @@ with open("lgbm_model.pickle", "rb") as f:
     clf = pickle.load(f)
 
 
-csv = pd.read_csv(r"/home/saim/Desktop/clen.csv")
+csv = pd.read_csv(r"/home/saim/Desktop/dash/clen.csv")
 
 
 X = csv.iloc[:, 1:]

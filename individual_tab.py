@@ -14,7 +14,7 @@ from dash.dependencies import Input, Output
 from index import app, df
 
 
-shap_df = pd.read_csv(r"/home/saim/Desktop/shap_df.csv")
+shap_df = pd.read_csv(r"/home/saim/Desktop/dash/shap_df.csv")
 
 
 def shap_initial(shap_dataframe):
